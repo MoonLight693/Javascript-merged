@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="sass/style.css">
     <script src="sort_and_add.js"></script>
     <script src="search.js"></script>
+    <script src="highlight.js"></script>
 </head>
 
 <body>
@@ -44,11 +45,11 @@
                   <a class="nav-link" href="#Media">Media</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#Contact us">Contact Us</a>
+                <a class="nav-link" href="#Additional_Sections">Additional Sections</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Additional_Sections">Additional Sections</a>
-            </li>
+                  <a class="nav-link" href="#Contact us">Contact Us</a>
+              </li>
             </ul>
             <!--Had to alter the HTML code just a little bit so as to function with JS-->
             <form id="myForm" class="d-flex" name="myForm" method="post">
@@ -135,7 +136,7 @@
                 </p>
                 </div>
                 <br id="Services">
-                <div class="container-fluid ml-4 mt-5 mr-3 pl-0 pr-5">
+                <div class="container-fluid ml-4 mt-5 mr-3 pl-0 pr-5" id="Services">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <h2>Services</h2>
@@ -156,7 +157,7 @@
                     </div>
                 </div>
                 <br id="Company Goals">
-                <div class="container ml-4 mt-5 mr-3 pl-0 pr-5">
+                <div class="container ml-4 mt-5 mr-3 pl-0 pr-5" id="Company Goals">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <h2>Company Goals</h2>
@@ -175,7 +176,7 @@
                     </div>
                 </div>
                 <br id="Parts">
-                <div class="container ml-4 mt-5 mr-3 pl-0 pr-5 text-left">
+                <div class="container ml-4 mt-5 mr-3 pl-0 pr-5 text-left" id="Parts">
                     <h2 class="text-left">Parts</h2>
                 </div>
                 <div class="container ml-4 mt-0 mr-3 pl-0 pr-5 text-left">
@@ -304,7 +305,7 @@
                     </div>
                 </div>
                 <br id="Media">
-                <div class="container-fluid ml-4 mt-5 mr-3 pl-0 pr-5">
+                <div class="container-fluid ml-4 mt-5 mr-3 pl-0 pr-5" id="Media">
                     <h2>Media</h2>
                     <figure>
                         <div class="embed-responsive embed-responsive-16by9">
@@ -333,6 +334,8 @@
                     </figure>
                 </div>
                 <br id="Additional_Sections">
+                <br>
+                <br>
                 <h2>Additional Sections</h2>
                 <div id="sections-container">
                     <!-- Sections will be dynamically added here from content.json -->
@@ -343,7 +346,7 @@
                     Back to Top
                   </button>
                 <br id="Contact us">
-                <div class="container-fluid ml-4 mt-5 mr-3 pl-0 pr-5">
+                <div class="container-fluid ml-4 mt-5 mr-3 pl-0 pr-5" id="Contact us">
                     <h2>Contact us</h2>
                     <p>Always feel free to email us for free at: <a href="">DiMarco-Part-Support@gmail.com</a></p>
                     <p><i>If it ain't broken, we'll still fix it.</i></p>
@@ -357,7 +360,7 @@
           </div>
         </div>
       </div>
-    
+
 <script src="sectioning.js"></script>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
